@@ -18,7 +18,7 @@ Below script is for deleting snapshots created and leased by RSV.
 ex) .\BreakLeaseAndDeleteSingleMabSnaphot.ps1 -ResourceGroupName ComputeRG -StorageAccountName shystorageaccount1 -FileShareName fileshareorigin -SubscriptionId d72205c8-690d-45e5-961f-e8ac0d2cb9a3 -SnapshotName 2022-03-31T08:03:26.0000000Z -DeleteSnapshot $true
 
 ## BreakLeaseAndDeleteMultipleMabSnapshots.ps
-Same purpose and usage as **BreakLeaseAndDeleteSingleMabSnapshots.ps
+Same purpose and usage as **BreakLeaseAndDeleteSingleMabSnapshots.ps**
 
 ### Usage
 .\BreakLeaseAndDeleteMultipleMabSnaphot.ps1 -ResourceGroupName *RGName* -StorageAccountName *SAName* -FileShareName fileshareorigin -SubscriptionId *SubsID* -SnapshotName *SnapshotName*, *SnapshotName* -DeleteSnapshot $true
